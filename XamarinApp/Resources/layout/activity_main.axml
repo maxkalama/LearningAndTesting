@@ -5,7 +5,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="match_parent">
 	<TextView
-		android:text="Введите номер:"
+		android:text="@string/enterTheNumber"
 		android:textAppearance="?android:attr/textAppearanceLarge"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
@@ -18,7 +18,7 @@
 		android:id="@+id/PhoneNumberText"
 		android:text="1-800-XAMARIN" />
 	<Button
-		android:text="Конвертировать"
+		android:text="@string/convert"
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/TranslateButton" />
@@ -27,5 +27,11 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:id="@+id/TranslatedPhone" />
+	<Button
+		android:text="@string/history"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/HistoryButton"
+		android:enabled="false" />
 
 </LinearLayout>
